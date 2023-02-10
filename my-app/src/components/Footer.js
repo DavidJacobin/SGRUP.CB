@@ -2,10 +2,11 @@ import React from 'react'
 import '../styles/Footer.css'
 import reactLogo from "../images/maps.png";
 
+
 function Footer() {
     return (
         <div>
-
+            
             <footer class="footer-distributed">
 
                 <div class="footer-left">
@@ -34,24 +35,29 @@ function Footer() {
                         <p><span>Carrer Santa Bárbara, 46712</span> Piles, València, Spain</p>
                     </div>
 
-                    <div>
-                        <i class="fa fa-phone">
+                    
+                    
+                        <div>
+                            <i class="fa fa-phone">
                             
-                            <p>+34 605 50 37 49</p>
-                            <p> +34 642 89 10 00</p>
-                        </i>
-                    </div>
+                                <p >+34 605 50 37 49</p>
+                                <p> +34 642 89 10 00</p>
+                            
+                            </i>
+                        </div>
+                    
 
                     <div>
                         <i class="fa fa-envelope"></i>
                         <p><a href="sgrup.bg@gmail.com">sgrup.bg@gmail.com</a></p>
                     </div>
+                    <div class="copyright">
+                        SGRUP.CB © 2016 | Todos los derechos reservados  |
+                    </div>
 
                 </div>
                 
-                <div class="copyright">
-                SGRUP.CB © 2016 | Todos los derechos reservados  |
-                </div>
+               
             </footer>
         </div>
     )

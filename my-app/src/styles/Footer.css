@@ -29,8 +29,11 @@
     
 }
 .copyright{
+    text-align: left;
     position: fixed;
+    vertical-align: middle;
     bottom: 0;
+    margin-left: 180px
 }
 
 /* Footer left */
@@ -94,7 +97,7 @@
     height: 88px;
     border-radius: 50%;
     text-align: center;
-    line-height: 72px;
+    line-height: 42px;
     margin: 20px 15px;
     vertical-align: middle;
     margin-left: 180px
