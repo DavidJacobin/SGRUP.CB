@@ -1,11 +1,14 @@
 @import url('https://fonts.googleapis.com/css?family=Noto+Sans&display=swap');
 
-body {
+.grid {
     
-    color: transparent;
+    
     font-family: 'Noto Sans', sans-serif;
 }
 
+h1{
+    position: absolute;
+}
 
 
 .card {
