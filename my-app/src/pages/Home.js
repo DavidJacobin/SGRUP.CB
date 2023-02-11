@@ -5,9 +5,13 @@ import Footer from '../components/Footer'
 import photo1 from "../images/home/1.jpg";
 import photo2 from "../images/home/2.jpg";
 import photo3 from "../images/home/3.jpg";
+
 import photo5 from "../images/home/5.jpg";
 import photo6 from "../images/home/6.jpg";
-import photo7 from "../images/home/7.jpg";
+import photo7 from "../images/home/7.jpeg";
+import photo8 from "../images/home/8.jpg";
+import photo9 from "../images/home/9.jpg";
+import photo10 from "../images/home/10.jpg";
 
 
 
@@ -17,11 +21,11 @@ export const Home = () => {
      <body className='gird'>
       <section className='basic-grid'>
         <div className='card card-tall card-wide'>
-          
+          <h1>Aguacate</h1>
           <img src={photo7}/>
         </div>
         <div className='card card-tall card-wide'>
-      
+          <h1>Pomelos</h1>
           <img src={photo2}/>
           </div>
         <div className='card card-tall card-wide'>
@@ -46,7 +50,23 @@ export const Home = () => {
                         Disponemos de transporte propio para ofrecerles un mejor servicio.
         </p>
      </body>
-      
+     <body className='gird'>
+      <section className='basic-grid'>
+        <div className='card card-tall card-wide'>
+        
+          <img src={photo8}/>
+        </div>
+        <div className='card card-tall card-wide'>
+        
+          <img src={photo9}/>
+        </div>
+        <div className='card card-tall card-wide'>
+        
+          <img src={photo10}/>
+        </div>
+        
+      </section>
+     </body>
 
     </div>
   )
