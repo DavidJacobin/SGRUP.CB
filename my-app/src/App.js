@@ -1,24 +1,24 @@
 import './App.css';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
-import { Home } from './pages/Home'
 import Navbar from './components/Navbar';
 import Title from './components/Header';
-import Footer from './components/Footer';
+import { Shop } from './pages/shop/shop';
+
 
 
 function App() {
   return (
     <div className="App">
+      
       <Router>
         <Title />
         <Navbar />
         <Routes>
-          <Route path='/' element={<Home />}>
+          <Route path='/' element={<Shop />}>
 
           </Route>
         </Routes>
       </Router>
-      <Footer />
     </div>
   );
 }

@@ -4,7 +4,7 @@ import reactLogo from "../images/MS.png";
 function Title() {
     return (
         <><div className="header" />
-            <img src={reactLogo}/>
+            <img className='logo' src={reactLogo}/>
             
         <div className="header-right" /></>
 

@@ -1,6 +1,7 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,500,300,700);
 
 * {
+    
     font-family: Open Sans;
 }
 
@@ -13,9 +14,11 @@
     text-align: left;
     font: bold 16px sans-serif;
     padding: 55px 50px;
-    position: fixed;
+    position: absolute;
     bottom: 0;
+    margin-top: auto;
     border-radius: 25px;
+    
     
 }
 
@@ -57,13 +60,13 @@
 }
 
 .footer-distributed h3 span {
-    color: lightseagreen;
+    color: rgb(3, 182, 0);
 }
 
 /* Footer links */
 
 .footer-distributed .footer-links {
-    color: lightseagreen;
+    color: rgb(3, 182, 0);
     margin: 20px 0 12px;
     padding: 0;
 }
@@ -91,7 +94,7 @@
 
 .footer-distributed .footer-center i {
     background-color: #ff5e00;
-    color: lightseagreen;
+    color: rgb(3, 182, 0);
     font-size: 20px;
     width: 88px;
     height: 88px;
@@ -107,14 +110,14 @@
 
 .footer-distributed .footer-center p {
     display: inline-block;
-    color: lightseagreen;
+    color: rgb(3, 182, 0);
     vertical-align: middle;
     margin: 0;
     font-weight: bold;
 }
 
 .footer-distributed .footer-center p a {
-    color: lightseagreen;
+    color: rgb(3, 182, 0);
     text-decoration: none;
     font-size: 25px;
     font-weight: bold;
@@ -142,7 +145,7 @@
 
 .footer-distributed .footer-company-about span {
     display: block;
-    color: lightseagreen;
+    color: rgb(3, 182, 0);
     font-size: 18px;
     font-weight: bold;
     margin-bottom: 20px;
